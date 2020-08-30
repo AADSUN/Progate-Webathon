@@ -1,0 +1,25 @@
+body {
+	background-color: #B5D3E7;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+
+table {
+	border-spacing: 0px;
+	padding-top: 0px;
+}
+
+.bookstd {
+	height: 300px;
+	width: 400px;
+}
+
+.booksimg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p booksheading {
+	padding-top: 10px;
+}

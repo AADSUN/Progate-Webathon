@@ -1,0 +1,127 @@
+
+<html>
+<head>
+	<title>Attendance</title>
+	<link rel="stylesheet" href="attendance.css">
+	<link rel="stylesheet" href="header.css">
+</head>
+<body>
+
+	<header>
+<table align="center"  width="100%" border=0 class="headertable">
+<tr>
+	<td width="30%">
+      
+          <img class="logo" src="pictures/topimage.jpg">
+
+      </td>
+      <td class="headertd" width="70%" align="left">
+      	<font size=15 color="champagne" face="jokerman">MY VIRTUAL CLASSROOM</font>
+      </td>
+</tr>	
+</table>
+<table width=98% border=0 align="center">
+	<tr>
+		<td align="right" valign="top">
+<font size=4 face="comic sans ms">
+					<a href="index.html"><font color="lilac">Home</font></a>  |
+					<a href="timetable.html" ><font color="lilac">Timetable</font></a> |
+		
+					<a href="attendance.html" ><font color="lilac">Attendance</font></a> |
+			
+					<a href="textbook.html" ><font color="lilac">Chapter wise E-resources</font></a> |
+			
+					<a href="undercons.html" ><font color="lilac">Quiz generator</font></a> |
+			
+					<a href="undercons.html" ><font color="lilac">Bulletin board</font></a> |
+			
+					<a href="undercons.html" ><font color="lilac">E-mail</font></a>		
+				</font></td>
+</tr>
+</table>
+    </header>
+
+	<font color = "teal" face = "arial" Align = "center" size="15"><p><b>Attendance Sheet</b></p></font>
+<table border="1px" Align="center" class="timetable2">
+	<script>
+		const date = ["Date","01-Aug","02-Aug","03-Aug","04-Aug","05-Aug","06-Aug","07-Aug","08-Aug","09-Aug"]
+		const student1 = ["Aadavan", "P", "P", "P", "P", "P","","", "P", "P"]
+		const student2 = ["Shashank", "P", "P", "P", "A", "P","","", "P", "A"]
+		const student3 = ["Hemang", "P", "P", "P", "A", "P","","", "A", "A"]
+		const student4 = ["Shaurya", "P", "P", "P", "A", "P","","", "P", "A"]
+		const student5 = ["Arnav", "P", "A", "P", "A", "P","","", "P", "A"]
+		
+		document.write("<tr>");
+			for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td class = heading>"); 
+			
+					document.write(date[i]);
+			
+					document.write("</td>");
+			}	
+			document.write("</tr>"); 
+		document.write("<tr>");
+			for (i=0; i<=9; i++)
+			{
+				if (i==0){
+					document.write("<B>");
+				}
+					document.write("<td>"); 
+			
+					document.write(student1[i]);
+			
+					document.write("</td>");
+				if (i==0){
+					document.write("</B>");
+				}	
+			}	
+			document.write("</tr>");
+			document.write("<tr>");
+			for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td>"); 
+			
+					document.write(student2[i]);
+			
+					document.write("</td>");
+			}	
+			document.write("</tr>");
+			document.write("<tr>");
+			for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td>"); 
+			
+					document.write(student3[i]);
+			
+					document.write("</td>");
+			}	
+			document.write("</tr>");document.write("<tr>");
+			for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td>"); 
+			
+					document.write(student4[i]);
+			
+					document.write("</td>");
+			}	
+			document.write("</tr>");document.write("<tr>");
+			for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td>"); 
+			
+					document.write(student5[i]);
+			
+					document.write("</td>");
+			}	
+			document.write("</tr>");
+		
+	</script>
+</table>
+</body>
+</html>

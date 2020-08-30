@@ -1,0 +1,127 @@
+<html>
+<head>
+	<title>time table</title>
+	<link rel="stylesheet" href="timetable.css">
+	<link rel="stylesheet" href="header.css">
+</head>
+<body>
+	<header>
+<table align="center"  width="100%" border=0 class="headertable">
+<tr>
+	<td width="30%">
+      
+          <img class="logo" src="pictures/topimage.jpg">
+
+      </td>
+      <td class="headertd" width="70%" align="left">
+      	<font size=15 color="champagne" face="jokerman">MY VIRTUAL CLASSROOM</font>
+      </td>
+</tr>	
+</table>
+<table width=98% border=0 align="center">
+	<tr>
+		<td align="right" valign="top">
+<font size=4 face="comic sans ms">
+					<a href="index.html"><font color="lilac">Home</font></a>  |
+					<a href="timetable.html" ><font color="lilac">Timetable</font></a> |
+		
+					<a href="attendance.html" ><font color="lilac">Attendance</font></a> |
+			
+					<a href="textbook.html" ><font color="lilac">Chapter wise E-resources</font></a> |
+			
+					<a href="undercons.html" ><font color="lilac">Quiz generator</font></a> |
+			
+					<a href="undercons.html" ><font color="lilac">Bulletin board</font></a> |
+			
+					<a href="undercons.html" ><font color="lilac">E-mail</font></a>		
+</font></td>
+</tr>
+</table>
+    </header>
+
+<p align="center">
+	<font size="10" face="Verdana" color="red">
+	<b>Time Table</b>
+	</font>
+</p>
+
+<table border="1" align="center" bordercolor="#221A14" cellspacing="0" width="75%">
+<script>
+		const days = ["Days","8:30-8:50","8:50-9:40","9:40-9:50","9:50-10:40","10:40-11:00","11:00-11:50","11:50-12:00","12:00-12:50","12:50-1:40", "1:40-2:20"]
+		const monday = ["Monday","Prayer & Meditation", "Sci", "Short Break", "French", "Long Break", "English","Short Break","M/D", "Lunch Break", "PEC"]
+		const tuesday = ["Tuesday", "Prayer & Meditation", "Eng", "Short Break", "French", "Long Break","Math","Short Break", "Art", "Lunch Break", "PEC"]
+		const wednesday = ["Wednesday", "Prayer & Meditation", "SST", "Short Break", "Sci", "Long Break","Math","Short Break", "IT", "Lunch Break", "PEC"]
+		const thursday = ["Thursday", "Prayer & Meditation", "French", "Short Break", "Sci", "Long Break","SST","Short Break", "PE", "Lunch Break", "PEC"]
+		const friday = ["Friday", "Prayer & Meditation", "Math", "Short Break", "Eng", "Long Break","SST","Short Break", "Hindi", "Lunch Break", "CCA"]
+
+		document.write("<tr>");
+			for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td class = timetabletd>"); 
+					
+					document.write(days[i]);
+
+					document.write("</td>");
+			}	
+			document.write("</tr>"); 
+		document.write("<tr>");
+		for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td class = timetabletd1>"); 
+			
+					document.write(monday[i]);
+			
+					document.write("</td>");
+			}	
+			document.write("</tr>");
+			document.write("<tr>");
+			for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td class = timetabletd1>"); 
+			
+					document.write(tuesday[i]);
+			
+					document.write("</td>");
+			}	
+			document.write("</tr>"); 
+		document.write("<tr>");
+		for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td class = timetabletd1>"); 
+			
+					document.write(wednesday[i]);
+			
+					document.write("</td>");
+			}	
+			document.write("</tr>");
+			document.write("<tr>");
+			for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td class = timetabletd1>"); 
+			
+					document.write(thursday[i]);
+			
+					document.write("</td>");
+			}	
+			document.write("</tr>"); 
+		document.write("<tr>");
+		for (i=0; i<=9; i++)
+			{
+				
+					document.write("<td class = timetabletd1>"); 
+			
+					document.write(friday[i]);
+			
+					document.write("</td>");
+			}	
+			document.write("</tr>");
+</script>
+</table>
+</font>
+</body>
+</html>

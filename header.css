@@ -1,0 +1,31 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+  width: 100%;
+  background-color: #F0CCAA;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  float: left;
+}
+
+
+.logo {
+  width: 70%;
+  height: 75%;
+}
+
+.headertd{
+	padding-left: 130px;
+}
+
+.headertop{
+	padding: 0px 0px 0px 0px;
+}
+
+.headertable{
+	padding: 0 0 0 0;
+}
